@@ -6,16 +6,34 @@ PC
 Anaconda - Python 3.7
 ## Algorithm: 
 ### Step 1: 
-### Step 2: 
-### Step 3: 
-Get the value from the user for the number of rotation
-### Step 4: 
-Using the slicing concept rotate the list
+Import def circulate.
+### Step 2:
+Prepare the lists from each linear equations and assign in np.array().
 
-### Step 5: 
-### Step 6: 
+### Step 3:
+Get the value from the user for the number of rotation.
+
+### Step 4:
+Using the slicing concept rotate the list.
+
+### Step 5:
+Add coding to the input value.
+
+### Step 6:
+Print the coding to get answer. 
 ## Program:
-
+```python
+#Program to circulate N values.
+#Developed by: Aadhiha.M
+#RegisterNumber: 22003465
+def circulate():
+    a=eval(input())
+    n=int(input())
+    a=a[n:]+a[:n]
+    print('After circulating the values are:',a)
+```
 ## Output:
+![OUTPUT](circulate.png)
 
 ## Result:
+thus circulating the values of N variables using fusion concept successfully executed
